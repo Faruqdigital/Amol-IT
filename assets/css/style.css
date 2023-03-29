@@ -388,9 +388,7 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
+/* Sections General */
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -418,9 +416,11 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
+/* About section */
+.about h2{
+  font-size: 36px;
+}
+
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
@@ -450,8 +450,8 @@ section {
 }
 
 .about .icon-box:hover .icon {
-  background: #49b5e7;
-  border-color: #49b5e7;
+  background: #FF5705;
+  border-color: #FF5705;
 }
 
 .about .icon-box:hover .icon i {
