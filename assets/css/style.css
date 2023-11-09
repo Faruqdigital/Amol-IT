@@ -101,6 +101,10 @@ h6 {
   align-items: center;
 }
 
+.navbar ul li a{
+  font-size: 14px;
+}
+
 .navbar li {
   position: relative;
 }
@@ -188,6 +192,51 @@ h6 {
   top: 0;
   left: 100%;
   visibility: visible;
+}
+
+/* cart button */
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 26px;
+  gap: 7px;
+  background-color: #FFEDE4;
+  outline-offset: -3px;
+  border-radius: 5px;
+  border: none;
+  /* cursor: pointer; */
+  transition: 400ms;
+  color: rgb(8, 8, 8);
+}
+
+.button .text {
+  color: white;
+  font-weight: 600;
+  font-size: 1em;
+  transition: 400ms;
+  padding-top: 13px;
+  color: rgb(8, 8, 8);
+}
+
+.button svg path {
+  color: #e6573f;
+}
+
+.button svg path {
+  transition: 400ms;
+}
+
+.button:hover {
+  background-color: transparent;
+}
+
+.button:hover .text {
+  color: black;
+}
+
+.button:hover svg path {
+  fill: black;
 }
 
 @media (max-width: 1366px) {
@@ -344,10 +393,10 @@ h6 {
 #hero .btn-get-started {
   /* font-family: "Dosis", sans-serif; */
   font-weight: 500;
-  font-size: 16px;
+  font-size: 12px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 8px 28px;
+  padding: 12px 22px;
   border-radius: 20px;
   transition: 0.5s;
   margin-top: 25px;
