@@ -401,7 +401,7 @@ h6 {
   padding: 12px 22px;
   border-radius: 20px;
   transition: 0.5s;
-  margin-top: 25px;
+  /* margin-top: 25px; */
   color: #fff;
   background: #664ae7;
   text-transform: uppercase;
@@ -441,26 +441,26 @@ h6 {
 }
 
 /* slide section */
-.clients {
+/* .clients {
   margin-bottom: 100px;
-}
+} */
 
-.clients .swiper-pagination {
+/* .clients .swiper-pagination {
   margin-top: 20px;
   position: relative;
-}
+} */
 
-.clients .swiper-pagination .swiper-pagination-bullet {
+/* .clients .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
   opacity: 1;
   border: 1px solid #e96b56;
-}
+} */
 
-.clients .swiper-pagination .swiper-pagination-bullet-active {
+/* .clients .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #e96b56;
-}
+} */
 
 .clients .swiper-slide img {
   /* opacity: 0.5; */
@@ -505,6 +505,7 @@ section {
 /* About section */
 .about h2{
   font-size: 36px;
+  color: #FF5705;
 }
 
 .about .icon-boxes h3 {
