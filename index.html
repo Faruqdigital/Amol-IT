@@ -28,6 +28,8 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -104,7 +106,8 @@
           </div>
         </div>
 
-        <div class="col-lg-6 order-1 order-lg-2 hero-img">
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-up"
+        data-aos-duration="3000">
           <img src="assets/img/hero-img.png" class="img-fluid" alt="">
         </div>
 
@@ -140,48 +143,6 @@
 
   <main id="main" class="">
 
-    <!-- Counts Section -->
-    <!-- <section id="counts" class="counts mt-5 mb-5">
-      <div class="container">
-
-        <div class="text-center title">
-          <h3>What we have achieved so far</h3>
-          <p>Amol IT has made significant contributions to technology education and training and continues to do so by
-            adapting to new technologies and trends and providing students with the knowledge and skills necessary to
-            succeed in the tech industry..</p>
-        </div>
-
-        <div class="row counters position-relative">
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="212" data-purecounter-duration="1"
-              class="purecounter"></span>
-            <p>Clients</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="532" data-purecounter-duration="1"
-              class="purecounter"></span>
-            <p>Projects</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="1563" data-purecounter-duration="1"
-              class="purecounter"></span>
-            <p>Hours Of Support</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1"
-              class="purecounter"></span>
-            <p>Hard Workers</p>
-          </div>
-
-        </div>
-
-      </div>
-    </section> -->
-
     <!-- About Section  -->
     <section id="about" class="about mb-4">
       <div class="container">
@@ -215,51 +176,20 @@
             </div>
           </div>
 
-          <div class="col-lg-6 order-2 order-lg-1 about-img">
+          <div class="col-lg-6 order-2 order-lg-1 about-img" data-aos="fade-up"
+          data-aos-duration="3000">
             <img src="assets/img/about-img.png" class="img-fluid" alt="">
           </div>
 
         </div>
 
-        <!-- <div class="row">
-          <div class="col-xl-5 col-lg-8 d-flex justify-content-center  align-items-stretch position-relative">
-            <img class="img-fluid" src="/assets/img/hero-img.png" alt="">
-          </div>
-
-          <div
-            class="col-xl-7 col-lg-4 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
-
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-fingerprint"></i></div>
-              <h4 class="title"><a href="">LIFETIME INSTANT LIVE SUPPORT</a></h4>
-              <p class="description">Any student can get 24/7 instant live support. When the students have such support
-                they become confident and flexible. This is our most important value for any new learners. </p>
-            </div>
-
-            <div class="icon-box">
-              <div class="icon"><i class='bx bx-star'></i></div>
-              <h4 class="title"><a href=""> SUCCESS STORIES OF AMOL IT</a></h4>
-              <p class="description">We have a student’s success stories page in facebook where student can post their
-                journey at marketplaces, their earnings, work history. Join Our Success Stories: <br> <a
-                  class="text-decoration-none" href="https://www.facebook.com/amolitbded/">Amolitbd-আমলআইটিবিডি
-                </a></p>
-            </div>
-
-            <div class="icon-box">
-              <div class="icon"><i class='bx bx-store'></i></div>
-              <h4 class="title"><a href="">TOP MARKETPLACE CRASH</a></h4>
-              <p class="description">Fiverr, Upwork, linkedin & Behance & Other marketplace crash programs
-                make them confident about the marketplace!</p>
-            </div>
-
-          </div>
-        </div> -->
-
       </div>
     </section>
 
     <!-- Clients Section -->
-    <section id="clients" class="clients">
+    <section id="clients" class="clients" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
       <div class="container">
 
         <h2 class="text-center mb-5 mt-2 fw-bold">Target Marketplaces</h2>
@@ -851,6 +781,12 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 
