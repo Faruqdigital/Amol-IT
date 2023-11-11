@@ -508,16 +508,15 @@ section {
   color: #FF5705;
 }
 
-.about .icon-boxes h3 {
-  font-size: 28px;
-  font-weight: 700;
-  color: #0f394c;
-  margin-bottom: 15px;
+.about .icon-boxes{
+  background-image: url(/assets/img/asset.svg);
+  background-repeat: no-repeat;
+  background-position:center;
 }
 
-.about .icon-box {
+/* .about .icon-box {
   margin-top: 40px;
-}
+} */
 
 .about .icon-box .icon {
   float: left;
@@ -567,11 +566,19 @@ section {
   font-size: 14px;
 }
 
-.about .video-box {
+.about-img{
+  margin-top: 16px;
+}
+
+.about-img img{
+  border-radius: 10px;
+}
+
+/* .about .video-box {
   background: url("../img/about.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
-}
+} */
 
 @media (min-width: 1200px) {
   .about .video-box {
