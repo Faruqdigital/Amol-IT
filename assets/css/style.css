@@ -574,12 +574,6 @@ section {
   border-radius: 10px;
 }
 
-/* .about .video-box {
-  background: url("../img/about.jpg") center center no-repeat;
-  background-size: cover;
-  min-height: 500px;
-} */
-
 @media (min-width: 1200px) {
   .about .video-box {
     margin-left: 15px;
@@ -666,77 +660,29 @@ section {
   }
 }
 
-/* count section */
-/* .counts {
-  background: url("../img/counts-bg.jpg") center center no-repeat;
-  background-size: cover;
-  padding: 80px 0 60px 0;
-  position: relative;
-}
-
-.counts::before {
-  content: "";
-  position: absolute;
-  background: rgba(255, 255, 255, 0.8);
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-}
-
-.counts .title {
-  position: relative;
-  color: #0f394c;
-  margin-bottom: 40px;
-}
-
-.counts .title h3 {
-  font-size: 36px;
-  font-weight: 700;
-}
-
-.counts .counters span {
-  font-size: 44px;
-  font-weight: 700;
-  display: block;
-  color: #49b5e7;
-  font-family: "Dosis", sans-serif;
-}
-
-.counts .counters p {
-  padding: 0;
-  margin: 0 0 20px 0;
-  font-size: 15px;
-  color: #444444;
-}
-
-@media (min-width: 1200px) {
-  .counts {
-    background-attachment: fixed;
-  }
-} */
-
 /* Clients section */
-.clients .clients-wrap {
-  border-top: 1px solid #eee;
-  border-left: 1px solid #eee;
+.clients h2 {
+  color: #FF5705;
+  font-size: 36px;
 }
 
 .clients .client-logo {
-  padding: 30px;
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-right: 1px solid #eee;
-  border-bottom: 1px solid #eee;
-  overflow: hidden;
+  /* border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee; */
+  /* overflow: hidden; */
   background: #fff;
   height: 120px;
+  border-radius: 10px;
+  box-shadow: rgba(235, 213, 155, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(235, 142, 201, 0.05) 25px 25px;
 }
 
 .clients .client-logo img {
   height: 50%;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   transition: 0.3s;
 }
 
