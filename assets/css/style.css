@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /* General */
 body {
@@ -494,12 +497,12 @@ section {
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin-bottom: 40px;
   padding-bottom: 0;
   color: #FF5705;
   /* margin-top: 62px; */
-  font-family: 'Crimson Pro', serif;
+  font-family: 'Poppins', serif;
 }
 
 .section-title p {
@@ -1095,6 +1098,32 @@ section {
   transform: scale(1.1);
 }
 
+/* review section */
+.review {
+  margin-bottom: 60px;
+}
+
+.card {
+  border: none;
+}
+
+.user-detail img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-left: 14px;
+}
+
+.user-detail h5 span {
+  font-size: 10px;
+  font-weight: 300;
+  margin-left: 3px;
+}
+
+.card-title .bxs-star {
+  color: #f0de41;
+}
+
 /* Frequently Asked Questions */
 .faq .faq-list {
   padding: 0 100px;
@@ -1197,8 +1226,8 @@ iframe{
 
 /* Footer */
 #footer {
-  background: #fff;
-  padding: 0 0 30px 0;
+  /* background: #fff; */
+  /* padding: 0 0 30px 0; */
   /* color: #444444; */
   font-size: 14px;
   margin-top: 48px;
