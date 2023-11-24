@@ -1233,6 +1233,11 @@ iframe{
   border-radius: 16px;
 }
 
+.map{
+  border: 10px solid rgb(243, 238, 238);
+  border-radius: 16px;
+}
+
 /* Footer */
 #footer {
   /* background: #fff; */
