@@ -1133,6 +1133,34 @@ section {
   color: #f0de41;
 }
 
+.review-h{
+  background-image: url(/assets/img/wave-2.png);
+  background-repeat: no-repeat;
+  height: 420px;
+}
+
+.review-h h2{
+  padding-top: 65px;
+  font-weight: 800;
+  color: #f74829;
+}
+
+.review-h p{
+  margin-top: 60px;
+}
+
+@media (max-width: 768px) {
+  .review-h{
+    height: 500px;
+  }
+}
+
+@media (max-width: 425px) {
+  .review-h{
+    height: 800px;
+  }
+}
+
 /* Frequently Asked Questions */
 .faq .faq-list {
   padding: 0 100px;
@@ -1236,6 +1264,10 @@ iframe{
 .map{
   border: 10px solid rgb(243, 238, 238);
   border-radius: 16px;
+}
+
+.section-title .cntt{
+  font-size: 48px;
 }
 
 /* Footer */
